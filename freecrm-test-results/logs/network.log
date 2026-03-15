@@ -1,0 +1,7 @@
+>> GET https://ui.freecrm.com/ 200
+>> POST https://ui.freecrm.com/auth/login 401 (TC_LOGIN_01)
+>> POST https://ui.freecrm.com/auth/login 401 (TC_LOGIN_02)
+>> POST https://ui.freecrm.com/auth/login 401 (TC_LOGIN_03 - delayed 3s)
+>> POST https://ui.freecrm.com/auth/login 401 (TC_LOGIN_04)
+>> POST https://ui.freecrm.com/auth/login 400 (TC_LOGIN_05 - Arabic)
+>> POST https://ui.freecrm.com/auth/login 401 (TC_LOGIN_06)

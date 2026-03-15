@@ -1,0 +1,7 @@
+[info] FreeCRM login page loaded
+[info] Form submitted for TC_LOGIN_01
+[info] Form submitted for TC_LOGIN_02
+[warning] Slow server response detected (3000ms) for TC_LOGIN_03
+[info] Form submitted for TC_LOGIN_04
+[error] Invalid request - unsupported character set TC_LOGIN_05
+[info] Form submitted for TC_LOGIN_06

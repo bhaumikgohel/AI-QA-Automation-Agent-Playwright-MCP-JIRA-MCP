@@ -1,0 +1,11 @@
+node_modules/
+*.env
+jira_projects.json
+jira_projects_utf8.json
+jira_created_issue.json
+generate_excel.py
+freecrm-test-results/trace/
+freecrm-test-results/data/
+freecrm-test-results/index.html
+playwright-report/
+test-results/

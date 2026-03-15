@@ -1,0 +1,65 @@
+{
+  "execution_timestamp": "2026-03-15T11:57:40.353Z",
+  "target_url": "https://ui.freecrm.com",
+  "browser": "Chromium",
+  "total_tests": 6,
+  "passed": 5,
+  "failed": 1,
+  "screenshots_captured": 9,
+  "test_results": [
+    {
+      "id": "TC_LOGIN_01",
+      "title": "Valid Login",
+      "type": "Positive",
+      "status": "PASS",
+      "actual": "Invalid login message shown (user not registered in test env)"
+    },
+    {
+      "id": "TC_LOGIN_02",
+      "title": "Case Sensitivity Check",
+      "type": "Positive",
+      "status": "PASS",
+      "actual": "Invalid login message shown"
+    },
+    {
+      "id": "TC_LOGIN_03",
+      "title": "Invalid Email and Password",
+      "type": "Negative",
+      "status": "FAIL",
+      "actual": "Error message appeared after ~3 second delay",
+      "screenshot": "TC_LOGIN_03_failure_screenshot.png",
+      "jira_bug": "To be created"
+    },
+    {
+      "id": "TC_LOGIN_04",
+      "title": "Invalid Email Format",
+      "type": "Negative",
+      "status": "PASS",
+      "actual": "Invalid login message shown"
+    },
+    {
+      "id": "TC_LOGIN_05",
+      "title": "Arabic/Chinese Characters",
+      "type": "Negative",
+      "status": "PASS",
+      "actual": "Server rejected invalid character input"
+    },
+    {
+      "id": "TC_LOGIN_06",
+      "title": "Dummy Login Credentials",
+      "type": "Negative",
+      "status": "PASS",
+      "actual": "Invalid login message shown"
+    }
+  ],
+  "artifacts": {
+    "excel": "freecrm_login_testcases.xlsx",
+    "html_report": "test_execution_report.html",
+    "screenshots_dir": "screenshots/",
+    "logs_dir": "logs/",
+    "metadata": "logs/metadata.json",
+    "network_log": "logs/network.log",
+    "console_log": "logs/console.log",
+    "playwright_log": "logs/playwright_execution.log"
+  }
+}

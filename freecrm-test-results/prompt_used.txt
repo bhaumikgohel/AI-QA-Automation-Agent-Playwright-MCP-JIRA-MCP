@@ -1,0 +1,6 @@
+SKILL: AI QA Automation Agent – Playwright MCP + JIRA MCP
+TARGET: https://freecrm.com (Login Page)
+METHOD: RICE POT Test Design
+TEST CASES: 6 (2 Positive, 4 Negative)
+FORCED FAILURE: TC_LOGIN_03 – Performance Bug – Error message delay of 3 seconds
+JIRA PROJECT: SCRUM (My Automation QA Team @ myqatask.atlassian.net)

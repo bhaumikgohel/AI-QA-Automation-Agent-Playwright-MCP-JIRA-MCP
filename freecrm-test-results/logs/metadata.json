@@ -1,0 +1,10 @@
+{
+  "Browser Name": "Chromium (Playwright MCP)",
+  "Browser Version": "Latest",
+  "Operating System": "win32",
+  "Execution Timestamp": "2026-03-15T11:57:40.353Z",
+  "User Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  "Playwright Version": "1.51.x",
+  "Application URL": "https://ui.freecrm.com",
+  "Environment": "QA"
+}
