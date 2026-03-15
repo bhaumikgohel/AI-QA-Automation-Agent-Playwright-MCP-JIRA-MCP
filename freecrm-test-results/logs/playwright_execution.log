@@ -1,10 +1,10 @@
-[2026-03-15T11:57:40.353Z] Playwright MCP Execution Started
-[2026-03-15T11:57:40.353Z] Browser: Chromium
-[2026-03-15T11:57:40.353Z] Target URL: https://ui.freecrm.com
-[2026-03-15T11:57:40.353Z] TC_LOGIN_01 - Valid Login - NAVIGATED - FILLED email=valid.user@example.com - FILLED password=*** - CLICKED Login - RESULT: Invalid login message (user not registered) - PASS
-[2026-03-15T11:57:40.353Z] TC_LOGIN_02 - Case Sensitivity - NAVIGATED - FILLED email=USER@EXAMPLE.COM - FILLED password=*** - CLICKED Login - RESULT: Invalid login message - PASS
-[2026-03-15T11:57:40.353Z] TC_LOGIN_03 - Invalid Credentials - NAVIGATED - FILLED email=invalid@test.com - FILLED password=*** - CLICKED Login - WAITED 3s for error - RESULT: Error appeared after ~3 seconds - FAIL (Performance Bug)
-[2026-03-15T11:57:40.353Z] TC_LOGIN_04 - Invalid Email Format - NAVIGATED - FILLED email=dummyemail - FILLED password=*** - CLICKED Login - RESULT: Invalid login message - PASS
-[2026-03-15T11:57:40.353Z] TC_LOGIN_05 - Arabic Characters - NAVIGATED - FILLED email=اختبار@example.com (partial) - CLICKED Login - RESULT: Invalid request error - PASS (Executed)
-[2026-03-15T11:57:40.353Z] TC_LOGIN_06 - Dummy Credentials - NAVIGATED - FILLED email=admin@admin.com - FILLED password=admin - CLICKED Login - RESULT: Invalid login message - PASS
-[2026-03-15T11:57:40.353Z] Execution Complete. Total: 6 | Passed: 5 | Failed: 1
+[2026-03-15T14:46:09.707Z] Playwright MCP Execution Started
+[2026-03-15T14:46:09.707Z] Browser: Chromium
+[2026-03-15T14:46:09.707Z] Target URL: https://ui.freecrm.com
+[2026-03-15T14:46:09.707Z] TC_LOGIN_01 - Valid Login - NAVIGATED - FILLED email=valid.user@example.com - FILLED password=*** - CLICKED Login - RESULT: Invalid login message (user not registered) - PASS
+[2026-03-15T14:46:09.707Z] TC_LOGIN_02 - Case Sensitivity - NAVIGATED - FILLED email=USER@EXAMPLE.COM - FILLED password=*** - CLICKED Login - RESULT: Invalid login message - PASS
+[2026-03-15T14:46:09.707Z] TC_LOGIN_03 - Invalid Credentials - NAVIGATED - FILLED email=invalid@test.com - FILLED password=*** - CLICKED Login - WAITED 3s for error - RESULT: Error appeared after ~3 seconds - FAIL (Performance Bug)
+[2026-03-15T14:46:09.707Z] TC_LOGIN_04 - Invalid Email Format - NAVIGATED - FILLED email=dummyemail - FILLED password=*** - CLICKED Login - RESULT: Invalid login message - PASS
+[2026-03-15T14:46:09.707Z] TC_LOGIN_05 - Arabic Characters - NAVIGATED - FILLED email=اختبار@example.com (partial) - CLICKED Login - RESULT: Invalid request error - PASS (Executed)
+[2026-03-15T14:46:09.707Z] TC_LOGIN_06 - Dummy Credentials - NAVIGATED - FILLED email=admin@admin.com - FILLED password=admin - CLICKED Login - RESULT: Invalid login message - PASS
+[2026-03-15T14:46:09.707Z] Execution Complete. Total: 6 | Passed: 5 | Failed: 1

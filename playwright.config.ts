@@ -9,7 +9,10 @@ export default defineConfig({
     ['json', { outputFile: 'freecrm-test-results/execution_summary.json' }]
   ],
   use: {
-    headless: true, // or false if want to observe
+    headless: false,
+    launchOptions: {
+      slowMo: 1000,
+    },
     screenshot: 'on',
     trace: 'on',
   },

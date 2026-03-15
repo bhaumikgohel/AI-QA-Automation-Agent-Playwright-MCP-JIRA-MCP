@@ -1,11 +1,11 @@
 {
-  "execution_timestamp": "2026-03-15T11:57:40.353Z",
+  "execution_timestamp": "2026-03-15T14:46:09.707Z",
   "target_url": "https://ui.freecrm.com",
   "browser": "Chromium",
   "total_tests": 6,
   "passed": 5,
   "failed": 1,
-  "screenshots_captured": 9,
+  "screenshots_captured": 1,
   "test_results": [
     {
       "id": "TC_LOGIN_01",
